@@ -113,7 +113,7 @@ endmodule
 ## Up Counter
 ![](timingup.png)
 ## Down Counter
-![](timingdown.png)
+![](timingdown.jpeg)
 
 
 
