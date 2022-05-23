@@ -66,9 +66,9 @@ RegisterNumber:  212221240024*/
 ~~~
 ## 4bit up counter
 
-module uc(input clk, input reset,output[0:3]counter);
+module uc(input CLK, input reset,output[0:3]counter);
 reg[0:3]counter_up;
-always@(posedge clk or posedge reset)
+always@(posedge CLK or posedge reset)
 begin
 if(reset)
 counter_up <=4'd0;
@@ -80,9 +80,9 @@ endmodule
 
 ## 4bit down counter
 
-module dc(input clk,input reset, output[0:3]counter);
+module dc(input CLK,input reset, output[0:3]counter);
 reg[0:3]counter_down;
-always@(posedge clk or posedge reset)
+always@(posedge CLK or posedge reset)
 begin
 if(reset)
 counter_down <= 4'd0;
