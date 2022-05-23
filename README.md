@@ -110,7 +110,9 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+## Up Counter
 ![](timingup.png)
+## Down Counter
 ![](timingdown.png)
 
 
